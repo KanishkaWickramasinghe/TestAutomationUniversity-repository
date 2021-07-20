@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-19T19:47:11 IST" name="Default suite" finished-at="2021-07-19T19:47:30 IST" duration-ms="18261">
+  <suite started-at="2021-07-20T22:22:46 IST" name="Default suite" finished-at="2021-07-20T22:23:07 IST" duration-ms="21774">
     <groups>
     </groups>
-    <test started-at="2021-07-19T19:47:11 IST" name="Default test" finished-at="2021-07-19T19:47:30 IST" duration-ms="18261">
-      <class name="testCases.TestWindowUtilitisCheck">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestWindowUtilitisCheck@1b6e1eff]" started-at="2021-07-19T19:47:11 IST" name="setUp" finished-at="2021-07-19T19:47:22 IST" duration-ms="10746" status="PASS">
+    <test started-at="2021-07-20T22:22:46 IST" name="Default test" finished-at="2021-07-20T22:23:07 IST" duration-ms="21774">
+      <class name="testCases.TestDynemicallyLodingElements">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:22:46 IST" name="setUp" finished-at="2021-07-20T22:22:59 IST" duration-ms="13591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestWindowUtilitisCheck@1b6e1eff]" started-at="2021-07-19T19:47:22 IST" name="goHome" finished-at="2021-07-19T19:47:23 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:22:59 IST" name="goHome" finished-at="2021-07-20T22:23:00 IST" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="doUtilitiesAction()[pri:0, instance:testCases.TestWindowUtilitisCheck@1b6e1eff]" started-at="2021-07-19T19:47:23 IST" name="doUtilitiesAction" finished-at="2021-07-19T19:47:29 IST" duration-ms="6379" status="PASS">
+        <test-method signature="waitingForTextLabel()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:23:00 IST" name="waitingForTextLabel" finished-at="2021-07-20T22:23:07 IST" duration-ms="6396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doUtilitiesAction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestWindowUtilitisCheck@1b6e1eff]" started-at="2021-07-19T19:47:29 IST" name="tearDown" finished-at="2021-07-19T19:47:30 IST" duration-ms="589" status="PASS">
+        </test-method> <!-- waitingForTextLabel -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:23:07 IST" name="getTCFailure" finished-at="2021-07-20T22:23:07 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitingForTextLabel status=SUCCESS method=TestDynemicallyLodingElements.waitingForTextLabel()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:23:07 IST" name="tearDown" finished-at="2021-07-20T22:23:07 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TestWindowUtilitisCheck -->
+      </class> <!-- testCases.TestDynemicallyLodingElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
