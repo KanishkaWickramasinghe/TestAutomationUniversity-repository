@@ -13,4 +13,9 @@ public class DynamicLoadingPage {
 		driver.findElement(By.linkText("Example 1: Element on page that is hidden")).click();
 		return new DynamicallyLoadedPage(driver);
 	}
+	
+	public String getWindowDetails() {
+		return driver.findElement(By.xpath("//h3")).getText();
+		
+	}
 }

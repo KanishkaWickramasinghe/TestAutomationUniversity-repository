@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
 import pages.HomePage;
+import utils.WindowManager;
 
 public class BaseTest {
 	protected WebDriver driver;
@@ -33,6 +34,10 @@ public class BaseTest {
 		driver.close();
 	}
 	
+	public WindowManager provideHadleToWindowManager()
+	{
+		return new WindowManager(driver);
+	}
 	
 	
 }
