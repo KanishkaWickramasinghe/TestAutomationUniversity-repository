@@ -5,24 +5,29 @@ import java.io.IOException;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import com.google.common.io.Files;
 
 import pages.HomePage;
+import utils.EventsReporter;
 import utils.WindowManager;
 
 public class BaseTest {
-	protected WebDriver driver;
+	//protected WebDriver driver;
+	protected EventFiringWebDriver driver;
 	protected HomePage homepg;
 	
 	@BeforeClass
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
+		driver= new  EventFiringWebDriver(new ChromeDriver());
+		driver.register(new EventsReporter());
 		goHome();
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());

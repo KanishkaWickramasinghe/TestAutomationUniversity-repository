@@ -1,40 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-20T22:22:46 IST" name="Default suite" finished-at="2021-07-20T22:23:07 IST" duration-ms="21774">
+  <suite started-at="2021-07-21T11:17:37 IST" name="Suite" finished-at="2021-07-21T11:20:09 IST" duration-ms="151238">
     <groups>
     </groups>
-    <test started-at="2021-07-20T22:22:46 IST" name="Default test" finished-at="2021-07-20T22:23:07 IST" duration-ms="21774">
-      <class name="testCases.TestDynemicallyLodingElements">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:22:46 IST" name="setUp" finished-at="2021-07-20T22:22:59 IST" duration-ms="13591" status="PASS">
+    <test started-at="2021-07-21T11:17:37 IST" name="Test" finished-at="2021-07-21T11:20:09 IST" duration-ms="151238">
+      <class name="testCases.TestLoginFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestLoginFunctionality@932bc4a]" started-at="2021-07-21T11:17:37 IST" name="setUp" finished-at="2021-07-21T11:17:48 IST" duration-ms="10109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:22:59 IST" name="goHome" finished-at="2021-07-20T22:23:00 IST" duration-ms="1055" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestLoginFunctionality@932bc4a]" started-at="2021-07-21T11:17:48 IST" name="goHome" finished-at="2021-07-21T11:17:48 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="waitingForTextLabel()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:23:00 IST" name="waitingForTextLabel" finished-at="2021-07-20T22:23:07 IST" duration-ms="6396" status="PASS">
+        <test-method signature="testLoginSuccessfully()[pri:0, instance:testCases.TestLoginFunctionality@932bc4a]" started-at="2021-07-21T11:17:48 IST" name="testLoginSuccessfully" finished-at="2021-07-21T11:17:51 IST" duration-ms="2608" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- waitingForTextLabel -->
-        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:23:07 IST" name="getTCFailure" finished-at="2021-07-20T22:23:07 IST" duration-ms="246" status="PASS">
+        </test-method> <!-- testLoginSuccessfully -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestLoginFunctionality@932bc4a]" started-at="2021-07-21T11:17:51 IST" name="getTCFailure" finished-at="2021-07-21T11:17:51 IST" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=waitingForTextLabel status=SUCCESS method=TestDynemicallyLodingElements.waitingForTextLabel()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginSuccessfully status=SUCCESS method=TestLoginFunctionality.testLoginSuccessfully()[pri:0, instance:testCases.TestLoginFunctionality@932bc4a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTCFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestDynemicallyLodingElements@10163d6]" started-at="2021-07-20T22:23:07 IST" name="tearDown" finished-at="2021-07-20T22:23:07 IST" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestLoginFunctionality@932bc4a]" started-at="2021-07-21T11:17:51 IST" name="tearDown" finished-at="2021-07-21T11:17:51 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestLoginFunctionality -->
+      <class name="testCases.TestAlertsFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:17:51 IST" name="setUp" finished-at="2021-07-21T11:18:00 IST" duration-ms="8365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:00 IST" name="goHome" finished-at="2021-07-21T11:18:00 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testingAlertsCancelFunction()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:00 IST" name="testingAlertsCancelFunction" finished-at="2021-07-21T11:18:01 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingAlertsCancelFunction -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:01 IST" name="getTCFailure" finished-at="2021-07-21T11:18:01 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingAlertsCancelFunction status=SUCCESS method=TestAlertsFunctionality.testingAlertsCancelFunction()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:01 IST" name="goHome" finished-at="2021-07-21T11:18:01 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testingAlertsFunction()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:01 IST" name="testingAlertsFunction" finished-at="2021-07-21T11:18:02 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingAlertsFunction -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:02 IST" name="getTCFailure" finished-at="2021-07-21T11:18:02 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingAlertsFunction status=SUCCESS method=TestAlertsFunctionality.testingAlertsFunction()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:02 IST" name="goHome" finished-at="2021-07-21T11:18:02 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testingPromptFunction()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:02 IST" name="testingPromptFunction" finished-at="2021-07-21T11:18:03 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingPromptFunction -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:03 IST" name="getTCFailure" finished-at="2021-07-21T11:18:03 IST" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testingPromptFunction status=SUCCESS method=TestAlertsFunctionality.testingPromptFunction()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestAlertsFunctionality@2df9b86]" started-at="2021-07-21T11:18:03 IST" name="tearDown" finished-at="2021-07-21T11:18:03 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestAlertsFunctionality -->
+      <class name="testCases.TestDopdownFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestDopdownFunctionality@15aab8c6]" started-at="2021-07-21T11:18:14 IST" name="setUp" finished-at="2021-07-21T11:18:22 IST" duration-ms="8080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestDopdownFunctionality@15aab8c6]" started-at="2021-07-21T11:18:22 IST" name="goHome" finished-at="2021-07-21T11:18:22 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="selectDropdownOption()[pri:0, instance:testCases.TestDopdownFunctionality@15aab8c6]" started-at="2021-07-21T11:18:22 IST" name="selectDropdownOption" finished-at="2021-07-21T11:18:23 IST" duration-ms="595" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect number of selections expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect number of selections expected [2] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at testCases.TestDopdownFunctionality.selectDropdownOption(TestDopdownFunctionality.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropdownOption -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestDopdownFunctionality@15aab8c6]" started-at="2021-07-21T11:18:23 IST" name="getTCFailure" finished-at="2021-07-21T11:18:23 IST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectDropdownOption status=FAILURE method=TestDopdownFunctionality.selectDropdownOption()[pri:0, instance:testCases.TestDopdownFunctionality@15aab8c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestDopdownFunctionality@15aab8c6]" started-at="2021-07-21T11:18:23 IST" name="tearDown" finished-at="2021-07-21T11:18:23 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestDopdownFunctionality -->
+      <class name="testCases.TestDynemicallyLodingElements">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:23 IST" name="setUp" finished-at="2021-07-21T11:18:33 IST" duration-ms="10044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:33 IST" name="goHome" finished-at="2021-07-21T11:18:33 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="loadDinemicallyLoadingElements()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:33 IST" name="loadDinemicallyLoadingElements" finished-at="2021-07-21T11:18:40 IST" duration-ms="6438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDinemicallyLoadingElements -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:40 IST" name="getTCFailure" finished-at="2021-07-21T11:18:40 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loadDinemicallyLoadingElements status=SUCCESS method=TestDynemicallyLodingElements.loadDinemicallyLoadingElements()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:40 IST" name="goHome" finished-at="2021-07-21T11:18:41 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="waitingForTextLabel()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:41 IST" name="waitingForTextLabel" finished-at="2021-07-21T11:18:47 IST" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitingForTextLabel -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:47 IST" name="getTCFailure" finished-at="2021-07-21T11:18:47 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitingForTextLabel status=SUCCESS method=TestDynemicallyLodingElements.waitingForTextLabel()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestDynemicallyLodingElements@50b5ac82]" started-at="2021-07-21T11:18:47 IST" name="tearDown" finished-at="2021-07-21T11:18:48 IST" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TestDynemicallyLodingElements -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCases.TestPasswordResetFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestPasswordResetFunctionality@6babf3bf]" started-at="2021-07-21T11:19:58 IST" name="setUp" finished-at="2021-07-21T11:20:07 IST" duration-ms="8526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestPasswordResetFunctionality@6babf3bf]" started-at="2021-07-21T11:20:07 IST" name="goHome" finished-at="2021-07-21T11:20:07 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="setNewPassword()[pri:0, instance:testCases.TestPasswordResetFunctionality@6babf3bf]" started-at="2021-07-21T11:20:07 IST" name="setNewPassword" finished-at="2021-07-21T11:20:08 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNewPassword -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestPasswordResetFunctionality@6babf3bf]" started-at="2021-07-21T11:20:08 IST" name="getTCFailure" finished-at="2021-07-21T11:20:08 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setNewPassword status=SUCCESS method=TestPasswordResetFunctionality.setNewPassword()[pri:0, instance:testCases.TestPasswordResetFunctionality@6babf3bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestPasswordResetFunctionality@6babf3bf]" started-at="2021-07-21T11:20:08 IST" name="tearDown" finished-at="2021-07-21T11:20:09 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestPasswordResetFunctionality -->
+      <class name="testCases.TestContextMenuFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestContextMenuFunctionality@37654521]" started-at="2021-07-21T11:18:03 IST" name="setUp" finished-at="2021-07-21T11:18:12 IST" duration-ms="8417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestContextMenuFunctionality@37654521]" started-at="2021-07-21T11:18:12 IST" name="goHome" finished-at="2021-07-21T11:18:12 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="performContextClick()[pri:0, instance:testCases.TestContextMenuFunctionality@37654521]" started-at="2021-07-21T11:18:12 IST" name="performContextClick" finished-at="2021-07-21T11:18:13 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performContextClick -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestContextMenuFunctionality@37654521]" started-at="2021-07-21T11:18:13 IST" name="getTCFailure" finished-at="2021-07-21T11:18:13 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performContextClick status=SUCCESS method=TestContextMenuFunctionality.performContextClick()[pri:0, instance:testCases.TestContextMenuFunctionality@37654521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestContextMenuFunctionality@37654521]" started-at="2021-07-21T11:18:13 IST" name="tearDown" finished-at="2021-07-21T11:18:14 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestContextMenuFunctionality -->
+      <class name="testCases.TestFileUploadFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestFileUploadFunctionality@101952da]" started-at="2021-07-21T11:18:48 IST" name="setUp" finished-at="2021-07-21T11:18:56 IST" duration-ms="8610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:testCases.TestFileUploadFunctionality@101952da]" started-at="2021-07-21T11:18:56 IST" name="goHome" finished-at="2021-07-21T11:18:57 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testFileUpload()[pri:0, instance:testCases.TestFileUploadFunctionality@101952da]" started-at="2021-07-21T11:18:57 IST" name="testFileUpload" finished-at="2021-07-21T11:19:57 IST" duration-ms="60721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUpload -->
+        <test-method is-config="true" signature="getTCFailure(org.testng.ITestResult)[pri:0, instance:testCases.TestFileUploadFunctionality@101952da]" started-at="2021-07-21T11:19:57 IST" name="getTCFailure" finished-at="2021-07-21T11:19:58 IST" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFileUpload status=SUCCESS method=TestFileUploadFunctionality.testFileUpload()[pri:0, instance:testCases.TestFileUploadFunctionality@101952da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestFileUploadFunctionality@101952da]" started-at="2021-07-21T11:19:58 IST" name="tearDown" finished-at="2021-07-21T11:19:58 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestFileUploadFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -16,7 +16,7 @@ public class TestLoginFunctionality extends BaseTest {
 	public void testLoginSuccessfully() {
 		LoginPage loginPg= homepg.clickFormAuthentication();
 		SecureAreaPage securePg=loginPg.logintoPage("tomsmith","SuperSecretPassword!");
-		System.out.println(securePg.getSecurePageText());
+		//System.out.println(securePg.getSecurePageText());
 		assertTrue(securePg.getSecurePageText().contains("You logged into a secure area!"),"Assert failed");
 	}
 
